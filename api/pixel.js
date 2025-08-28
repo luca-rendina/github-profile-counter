@@ -33,8 +33,7 @@ export default async function handler(req, res) {
       schemaVersion: 1,
       label: BADGE_LABEL,
       message: String(count),
-      color: "blue",
-      lastUpdate,
+      color: "blue"
     };
     const body = {
       message: "increment counter",
